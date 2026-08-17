@@ -9,7 +9,7 @@ class TestHello(unittest.TestCase):
         self.assertEqual(add(2, 3), 5)
 
     def test_message(self):
-        self.assertEqual(message(), "Hello from Jenkins CI!")
+        self.assertEqual(message(), "Hello GitHub")
 
 
 if __name__ == "__main__":
